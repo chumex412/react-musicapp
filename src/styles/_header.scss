@@ -1,0 +1,23 @@
+.music-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+
+  button {
+    position: relative;
+    z-index: 10;
+
+    span {
+      margin-left: 0.5rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+ .music-header {
+   button {
+     position: static;
+   }
+ }
+}

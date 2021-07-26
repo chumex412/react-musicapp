@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1rem;
+  background-color: rgb(243, 244, 246);
+}
+
+.music-container {
+  padding: 0 1.5rem;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+}
+
+.library-active {
+  margin-left: 30%
+}
+
+
+
+@import './song';
+@import './player';
+@import './util';
+@import './library';
+@import './librarysong';
+@import './header';
